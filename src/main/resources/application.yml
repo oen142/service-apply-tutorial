@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: local
+  jpa:
+    open-in-view: false
+
+  mail:
+    host: smtp.gmail.com
+    password: PASSWORD
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+        mime:
+          charset: UTF-8
+    username: EMAIL
+
+aws:
+  access-key: ACCESS_KEY
+  secret-key: SECRET_KEY
