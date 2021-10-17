@@ -1,4 +1,9 @@
 package com.example.service.apply.domain.evaluationtarget
 
-class EvaluationStatus {
+enum class EvaluationStatus {
+    WAITING,
+    PENDING,
+    PASS,
+    FAIL
+
 }
