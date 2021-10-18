@@ -8,7 +8,8 @@ class EvaluationTarget(
     @Column(nullable = false)
     val evaluationId: Long = 0L,
 
-    val administrationId: Long? = null,
+    // TODO 추후 채점자 개념이 들어가면 수정 필요
+    val administratorId: Long? = null,
 
     @Column(nullable = false)
     val applicantId: Long,
